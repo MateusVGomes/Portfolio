@@ -10,28 +10,41 @@
 
 body {
 
-    background-color: #380106;
+    background: linear-gradient(rgb(20, 19, 19), #380106);
     font-family: 'DM Sans', sans-serif;
-    color:white;
-    display:flex;
+    color: white;
+    display: flex;
+    min-height: 100vh;
+}
+
+.jumbotron {
+
+    background: linear-gradient(rgb(0, 0, 0), #380110);
+    width: 90%;
+    max-width: 1280px;
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 50px;
 
 }
+
+
 
 #order {
 
     text-align: center;
-    
+
 }
 
 .caixa {
     text-align: left;
     margin: 0px 25% 0px 25%;
-    
+
 
 }
 
 a {
 
-    color: black;
+    color: white;
     font-size: 30px;
 }
